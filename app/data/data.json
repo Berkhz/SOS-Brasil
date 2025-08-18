@@ -1,0 +1,79 @@
+{
+    "nacionais" : [
+        {
+            "id": 1, 
+            "nome": "Polícia Militar",
+            "descricao": "Serviço de Segurança Pública",
+            "numero": "190"
+        },
+        {
+            "id": 2, 
+            "nome": "Polícia Rodoviária Federal",
+            "descricao": "Serviço de Segurança nas Rodovias Federais",
+            "numero": "191"
+        },
+        {
+            "id": 3, 
+            "nome": "SAMU",
+            "descricao": "Serviço de Atendimento Móvel de Urgência",
+            "numero": "192"
+        },
+        {
+            "id": 4,
+            "nome": "Corpo de Bombeiros",
+            "descricao": "Serviço de Combate a Incêndios e Resgate",
+            "numero": "193"
+        },
+        {
+            "id": 5,
+            "nome": "Polícia Federal",
+            "descricao": "Serviço de Investigação e Segurança Federal",
+            "numero": "194"
+        }
+    ],
+    "estado": [
+        {
+            "id": 1,
+            "uf": "PR",
+            "nome": "Paraná",
+            "cidades": [
+                {
+                    "id": 1,
+                    "nome": "Maringá",
+                    "servicos": [
+                        {
+                            "id": 1,
+                            "nome": "Guarda Cívil de Maringá",
+                            "descricao": "Serviço de Segurança Municipal",
+                            "numero": "153"
+                        },
+                        {
+                            "id": 2,
+                            "nome": "COPEL",
+                            "descricao": "Companhia Paranaense de Energia",
+                            "numero": "3293-5100"
+                        },
+                        {
+                            "id": 3,
+                            "nome": "Sanepar",
+                            "descricao": "Companhia de Saneamento do Paraná",
+                            "numero": "3263-9445"
+                        },
+                        {
+                            "id": 4,
+                            "nome": "PROCON",
+                            "descricao": "Serviço de Proteção e Defesa do Consumidor",
+                            "numero": "3293-8150"
+                        },
+                        {
+                            "id": 5,
+                            "nome": "Ouvidoria Municipal",
+                            "descricao": "Canal de Comunicação com a Prefeitura",
+                            "numero": "156"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
