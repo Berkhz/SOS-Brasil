@@ -1,24 +1,25 @@
 import { StyleSheet } from 'react-native';
+
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function HomeScreen() {
+export default function MenuScreen() {
   return (
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">SOS Brasil</ThemedText>
+        <ThemedText type="title">Menu</ThemedText>
       </ThemedView>
   );
 }
 
 const styles = StyleSheet.create({
+  headerImage: {
+    color: '#808080',
+    bottom: -90,
+    left: -35,
+    position: 'absolute',
+  },
   titleContainer: {
     flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
     gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
   },
 });
